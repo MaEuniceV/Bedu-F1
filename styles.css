@@ -1,5 +1,5 @@
 body {
-    background-color: #fffbf7;
+    background-color: #ffffff;
 }
 
 h1 {
@@ -9,7 +9,7 @@ h1 {
 
 p {
     color: #8b8b8bcc;
-    font-family: Verdana;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     text-align: center;
 }
@@ -20,6 +20,7 @@ button {
     align-items: center;
 }
 
-image {
-    align-items: center;
+img {
+    display: block;
+    margin: 0px auto;
 }
