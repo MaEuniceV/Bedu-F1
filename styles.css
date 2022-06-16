@@ -5,19 +5,18 @@ body {
 h1 {
     color: #025157;
     text-align: center;
+    font-family: 'Dancing Script', cursive;
 }
 
 p {
     color: #8b8b8bcc;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Dancing Script', cursive;
     font-size: 20px;
-    text-align: center;
 }
 
 button {
     color: #fff;
     background-color: #025157;
-    align-items: center;
 }
 
 /* img {
@@ -31,10 +30,12 @@ button {
     margin-right: 20px; */
     margin: 40 px 20 px 0;
     font-size: 0; 
+    font-family: sans-serif;
 }
 
 li {
     display: inline;
+    margin: 0 25px 0;
 }
 
 .header > * {
@@ -60,11 +61,28 @@ li {
     font-weight: 500;
 }
 
+
 .actions {
     width: 15%;
     text-align: right;
     font-size: 14 px;
     font-weight: 600;
+}
+
+.actions > * {
+    margin: 0 10px;
+}
+
+.actions > a {
+    color: #67b54b;
+}
+
+.actions > button {
+    color: white;
+    background-color: #67b54b;
+    padding: 12px 14px;
+    border-radius: 5px;
+    border: 0;
 }
 
 .main {
