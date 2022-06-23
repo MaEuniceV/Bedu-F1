@@ -59,7 +59,7 @@ li {
 }
 
 .logo > img {
-    width: 15%;
+    width: 35%;
 }
 
 .navbar {
@@ -130,5 +130,33 @@ li {
 
 .features {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    /*height: 660px;*/
+    /*grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr); */
+    grid-template: repeat(2, 330px) / repeat(2, 1fr);
+    background-color: #025157;
+    
 }
+
+.features .card {
+    background-color: white;
+    gap: 10px;
+    padding: 15px;
+    display: grid;
+    grid-template: repeat(2, 330px) / repeat(2, 1fr);
+
+    
+}
+
+.features .card .content h3 {
+    font-size: 24px;
+    color: #343434;
+    font-weight: 400;
+}
+
+.features .card .content a {
+   color: #67b54b; 
+   font-weight: 700;
+}
+
+
