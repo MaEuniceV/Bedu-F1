@@ -285,6 +285,43 @@ li {
     .main {
         margin-top: 90px;
     }
+
+    .banner {
+        width: 100%;
+    }
+
+    .publish > form {
+        flex-direction: column;
+    }
+
+    .publish > form > div {
+        height: 50px;
+        margin-top: 10px;
+    }
+
+    .publish > form > div {
+        height: 50px;
+        margin-top: 10px;
+    }
+
+    .promo {
+        flex-direction: column;
+        max-width: 90%;
+    }
+
+    .multimedia > video {
+        width: 100%;
+    }
+
+    .publish {
+        margin-top: 10px;
+    }
+
+    .publish > h1 { 
+        font-size: 25px;
+        line-height: 1.2;
+    }
+
   }
   
   /** dispositivos pequeños en vista landscape (horizontal) */
