@@ -68,6 +68,7 @@ li {
     text-align: center;
     color: #025157;
     font-weight: 500;
+    background-color: #fffbf7;
 }
 
 
@@ -269,6 +270,42 @@ li {
   .features .feature-card .feature-image img {
     margin-top: 0;
     height: 100%;
+  }
+
+  .success-stories {
+    background-color: #A1D683;
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .success-stories .overview {
+    flex: 2;
+    padding-right: 100px;
+  }
+  .success-stories .overview h2 {
+    font-family: "Alegreya", serif;
+    font-size: 51px;
+    line-height: 61px;
+    color: #025157;
+  }
+  .success-stories .overview p {
+    color: #343434;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+  .success-stories .overview button {
+    font-size: 14px;
+    padding: 12px 12px 6px 12px;
+    border-radius: 8px;
+    height: 45px;
+    font-weight: 600;
+    margin-left: 0;
+  }
+  .success-stories .overview img {
+    width: 500px;
+    max-width: 100%;
   }
 
   /** dispositivos móviles en vista viewport (vertical) */
