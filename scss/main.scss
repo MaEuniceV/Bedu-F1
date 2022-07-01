@@ -12,9 +12,10 @@
     .process-list {
         margin-top: 40px;
         margin-bottom: 36px;
+        
 
         .process {
-            margin-bottom: 252px;
+            margin-bottom: 25px;
 
             & > div {
                 & > h3 {
@@ -43,24 +44,42 @@
         }
     }
 
-    button {
-        height: auto;
-        border-radius: 8px;
-        padding: 12px;
-        width: 180px;
-        margin-bottom: 15px;
-    }
-
-    .category {
-        color: $light-green;
-    }
-
-    .read-time {
-        color: $light-gray;
-    }
-
-    .card-text {
+    .card-title {
+        font-size: 22px;
         color: $gray;
+      }
+    
+      .metadata {
+        font-size: 16px; 
+    
+        .category {
+          color: $light-green;
+        }
+      }
+    
+      .card-text {
+        color: $gray;
+        font-size: 20px;
+    
+        .read-more {
+          text-decoration: underline;
+        }
+      }
+    
+      .author {
+        img {
+          border-radius: 50%;
+          width: 35px;
+          height: 35px;
+        }
+    
+        p {
+          margin-left: 5px;
+          margin-top: 10px;
+          font-weight: 500;
+          font-size: 12px;
+          color: $gray;
+        }
+      }
     }
-}
 
